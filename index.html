@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./fontawesome-free-5.9.0-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:1100px)" href="./css/widescreen.css">
+    <title>Investo | Accounting & Investment</title>
+</head>
+<body id="home">
+    
+    <!-- NAVBAR -->
+
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-infinity"></i> Investo
+            </span>
+        </h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HEADER : SHOWCASE -->
+
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">INVESTO</h1>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, reiciendis.</p>
+            <a href="#what" class="btn-primary">Read More</a>
+        </div>
+    </header>
+
+    <!-- SECTION : WHAT WE DO -->
+
+    <section id="what" class="bg-light">
+        <div class="container">
+            <h1 class="m-heading text-center"><span class="text-primary">What</span> We Do</h1>
+
+            <div class="items">
+
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Management</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                        <div>
+                            <h3>Tax & Custodial</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION : WHO WE ARE -->
+    
+    <section id="who" class="bg-dark">
+        <div class="who-img"></div>
+        <div class="who-text">
+            <h1 class="m-heading">
+                <span class="text-primary">Who</span> We Are
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, praesentium! Sit rerum recusandae placeat molestias inventore.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, praesentium! Sit rerum recusandae placeat molestias inventore.</p>
+            
+            <h3>Our Team</h3>
+            
+            <ul>
+                <li>Prashant Channe : CEO</li>
+                <li>Martha Neilson : CFO</li>
+                <li>Fransiska Doppler : Lead Accountant</li>
+                <li>Logan Paul : Investment Management</li>
+                <li>Jake Paul : Senior Accountant</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- SECTION : CLIENTS -->
+
+    <section id="clients">
+        <div class="container">
+
+            <h1 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h1>
+
+            <div class="items">
+                <img src="./img/logos/behance.png" alt="logo">
+                <img src="./img/logos/soundcloud.png" alt="logo">
+                <img src="./img/logos/spotify.png" alt="logo">
+                <img src="./img/logos/linkedin.png" alt="logo">
+                <img src="./img/logos/periscope.png" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION : CONTACT -->
+
+    <section id="contact">
+
+            <div class="contact-form bg-primary p-2">
+                <h2 class="m-heading">Contact Us</h2>
+                <p>Please use the form below to contact us</p>
+                <form action="">
+    
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                    </div>    
+    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Message"></textarea>
+                    </div>
+    
+                    <button class="btn-primary btn-light">Submit</button>
+                </form>
+            </div>
+    
+            <div class="map"></div>
+        </section>
+    
+        <!-- FOOTER -->
+        <footer id="main-footer" class="bg-dark text-center">
+            <div class="container">
+              <p>Copyright &copy; 2019, Investo, All Rights Reserved</p>
+            </div>
+        </footer>
+    
+        <!-- JQuey CDN -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    
+    
+        <!-- Local JS File -->
+        <script src="./js/script.js"></script>
+    
+        <!-- Google Maps -->
+       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoAlVzhZoXSiEd8sc0T2pyzKULwumqBfI&callback=initMap"
+       async defer></script>
+
+</body>
+</html>
